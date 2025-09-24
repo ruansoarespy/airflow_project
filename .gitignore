@@ -1,0 +1,13 @@
+# Ignorar ambiente virtual
+venv/
+airflow_home/
+# Ignorar logs e arquivos temporários do Airflow
+logs/
+airflow-webserver.pid
+airflow.db
+airflow_home/
+standalone_admin_password.txt
+webserver_config.py/
+# Ignorar arquivos temporários / notebooks de teste
+
+*.log
